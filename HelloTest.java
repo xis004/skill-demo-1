@@ -4,6 +4,6 @@ import org.junit.*;
 public class HelloTest {
     @Test
     public void testHello(){
-        assertEquals("Goodbye", Hello.hello());
+        assertEquals("Hello", Hello.hello());
     }
 }
